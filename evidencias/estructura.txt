@@ -4,7 +4,9 @@ practica-grupal\
 |   |-- estructura.txt
 |   |-- http-pruebas.txt
 |   |-- jsp-formulario.png
+|   |-- jsp-readme.png
 |   |-- php-formulario.png
+|   |-- php-readme.png
 |   |-- php-server.log
 |   |-- tomcat-launch.txt
 |   |-- tomcat-server.log

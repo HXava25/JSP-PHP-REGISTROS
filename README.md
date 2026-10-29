@@ -18,7 +18,9 @@ practica-grupal/
 │   ├── estructura.txt
 │   ├── http-pruebas.txt
 │   ├── jsp-formulario.png
+│   ├── jsp-readme.png
 │   ├── php-formulario.png
+│   ├── php-readme.png
 │   ├── php-server.log
 │   ├── tomcat-launch.txt
 │   └── tomcat-server.log
@@ -117,9 +119,18 @@ Realiza estas comprobaciones en **cada** despliegue:
 ## Evidencias generadas
 
 - `evidencias/php-formulario.png` y `evidencias/jsp-formulario.png`: capturas de los formularios desplegados.
+- `evidencias/php-readme.png` y `evidencias/jsp-readme.png`: capturas proporcionadas para esta entrega y mostradas a continuación.
 - `evidencias/http-pruebas.txt`: resultados reales para `200`, `405`, `422`, sesiones y escape XSS en ambas implementaciones.
 - `evidencias/php-server.log` y `evidencias/tomcat-server.log`: logs de las ejecuciones locales de prueba.
 - `evidencias/estructura.txt`: estructura de carpetas entregada.
+
+### Captura del formulario PHP
+
+![Formulario de registro de contacto implementado en PHP](evidencias/php-readme.png)
+
+### Captura del formulario JSP
+
+![Formulario de registro de contacto implementado en JSP](evidencias/jsp-readme.png)
 
 ### Ejemplos HTTP con curl
 
