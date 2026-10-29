@@ -1,0 +1,18 @@
+practica-grupal\
+|-- README.md
+|-- evidencias\
+|   |-- estructura.txt
+|   |-- http-pruebas.txt
+|   |-- jsp-formulario.png
+|   |-- php-formulario.png
+|   |-- php-server.log
+|   |-- tomcat-launch.txt
+|   |-- tomcat-server.log
+|-- jsp-app\
+|   |-- index.html
+|   |-- procesar.jsp
+|   |-- style.css
+|-- php-app\
+    |-- index.html
+    |-- procesar.php
+    |-- style.css

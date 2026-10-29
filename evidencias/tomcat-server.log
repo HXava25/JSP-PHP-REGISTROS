@@ -1,0 +1,33 @@
+29-Oct-2026 09:53:27.905 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.99
+29-Oct-2026 09:53:27.912 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 14 2024 22:52:13 UTC
+29-Oct-2026 09:53:27.915 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.99.0
+29-Oct-2026 09:53:27.918 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+29-Oct-2026 09:53:27.919 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2026 09:53:27.919 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2026 09:53:27.919 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jre-1.8
+29-Oct-2026 09:53:27.920 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_401-b10
+29-Oct-2026 09:53:27.920 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2026 09:53:27.922 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     [BASE_TEMPORAL]
+29-Oct-2026 09:53:27.922 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\xampp\tomcat
+29-Oct-2026 09:53:27.923 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=[BASE_TEMPORAL]\conf\logging.properties
+29-Oct-2026 09:53:27.924 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2026 09:53:27.924 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+29-Oct-2026 09:53:27.925 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Oct-2026 09:53:27.925 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+29-Oct-2026 09:53:27.925 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=[BASE_TEMPORAL]
+29-Oct-2026 09:53:27.926 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\xampp\tomcat
+29-Oct-2026 09:53:27.926 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=[BASE_TEMPORAL]\temp
+29-Oct-2026 09:53:27.927 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.39] con la versión APR [1.7.4].
+29-Oct-2026 09:53:27.927 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+29-Oct-2026 09:53:27.927 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2026 09:53:27.938 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.11 19 Sep 2023]
+29-Oct-2026 09:53:28.194 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-18180"]
+
+29-Oct-2026 09:53:28.228 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 830 ms
+29-Oct-2026 09:53:28.325 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2026 09:53:28.326 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.99]
+29-Oct-2026 09:53:28.341 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [[BASE_TEMPORAL]\webapps\jsp-app] de la aplicación web
+29-Oct-2026 09:53:29.156 ADVERTENCIA [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [508] milliseconds.
+29-Oct-2026 09:53:29.182 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [[BASE_TEMPORAL]\webapps\jsp-app] has finished in [841] ms
+29-Oct-2026 09:53:29.185 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-18180"]
+29-Oct-2026 09:53:29.212 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 982 ms

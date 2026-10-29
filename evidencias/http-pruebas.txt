@@ -1,0 +1,10 @@
+﻿[PHP] GET formulario: HTTP 200
+[PHP] GET procesador: HTTP 405; Allow: POST
+[PHP] POST contacto con etiqueta script: HTTP 200; HTML escapado; dos registros en la sesión
+[PHP] POST correo inválido: HTTP 422; registro rechazado
+
+[JSP] GET formulario: HTTP 200
+[JSP] GET procesador: HTTP 405; Allow: POST
+[JSP] POST contacto con etiqueta script: HTTP 200; HTML escapado; dos registros en la sesión
+[JSP] POST correo inválido: HTTP 422; registro rechazado
+

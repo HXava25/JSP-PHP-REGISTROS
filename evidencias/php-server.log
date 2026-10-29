@@ -1,0 +1,31 @@
+[Thu Oct 29 09:53:26 2026] PHP 8.3.36 Development Server (http://127.0.0.1:18765) started
+[Thu Oct 29 09:54:02 2026] 127.0.0.1:49683 Accepted
+[Thu Oct 29 09:54:02 2026] 127.0.0.1:49683 [200]: GET /
+[Thu Oct 29 09:54:02 2026] 127.0.0.1:49683 Closing
+[Thu Oct 29 09:54:02 2026] 127.0.0.1:49684 Accepted
+[Thu Oct 29 09:54:02 2026] 127.0.0.1:49684 [405]: GET /procesar.php
+[Thu Oct 29 09:54:02 2026] 127.0.0.1:49684 Closing
+[Thu Oct 29 09:54:02 2026] 127.0.0.1:49685 Accepted
+[Thu Oct 29 09:54:02 2026] 127.0.0.1:49685 [200]: POST /procesar.php
+[Thu Oct 29 09:54:02 2026] 127.0.0.1:49685 Closing
+[Thu Oct 29 09:54:02 2026] 127.0.0.1:49686 Accepted
+[Thu Oct 29 09:54:02 2026] 127.0.0.1:49686 [200]: POST /procesar.php
+[Thu Oct 29 09:54:02 2026] 127.0.0.1:49686 Closing
+[Thu Oct 29 09:54:02 2026] 127.0.0.1:49687 Accepted
+[Thu Oct 29 09:54:02 2026] 127.0.0.1:49687 [422]: POST /procesar.php
+[Thu Oct 29 09:54:02 2026] 127.0.0.1:49687 Closing
+[Thu Oct 29 09:54:54 2026] 127.0.0.1:51992 Accepted
+[Thu Oct 29 09:54:54 2026] 127.0.0.1:51992 [200]: GET /
+[Thu Oct 29 09:54:54 2026] 127.0.0.1:51992 Closing
+[Thu Oct 29 09:54:54 2026] 127.0.0.1:51993 Accepted
+[Thu Oct 29 09:54:54 2026] 127.0.0.1:51993 [405]: GET /procesar.php
+[Thu Oct 29 09:54:54 2026] 127.0.0.1:51993 Closing
+[Thu Oct 29 09:54:54 2026] 127.0.0.1:51994 Accepted
+[Thu Oct 29 09:54:54 2026] 127.0.0.1:51994 [200]: POST /procesar.php
+[Thu Oct 29 09:54:54 2026] 127.0.0.1:51994 Closing
+[Thu Oct 29 09:54:54 2026] 127.0.0.1:51995 Accepted
+[Thu Oct 29 09:54:54 2026] 127.0.0.1:51995 [200]: POST /procesar.php
+[Thu Oct 29 09:54:54 2026] 127.0.0.1:51995 Closing
+[Thu Oct 29 09:54:54 2026] 127.0.0.1:51996 Accepted
+[Thu Oct 29 09:54:54 2026] 127.0.0.1:51996 [422]: POST /procesar.php
+[Thu Oct 29 09:54:54 2026] 127.0.0.1:51996 Closing

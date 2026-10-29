@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7f6">
+  <title>Registro de contacto | JSP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page-shell">
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="Registro de contacto, inicio">
+        <span class="wordmark-mark" aria-hidden="true">RC</span>
+        <span>Registro<span class="wordmark-light">Contacto</span></span>
+      </a>
+      <span class="environment"><span class="status-dot"></span> Implementación JSP</span>
+    </header>
+
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">AGENDA DE CONTACTOS <span>·</span> JSP</p>
+      <h1 id="page-title">Cada buena relación<br>empieza <span>por aquí.</span></h1>
+      <p class="intro-copy">Registra los datos de contacto que necesitas tener a mano. Se guardarán en la sesión actual.</p>
+    </section>
+
+    <section class="form-card" aria-labelledby="form-title">
+      <div class="card-heading">
+        <div>
+          <p class="step-label">NUEVO REGISTRO <span>01 / 01</span></p>
+          <h2 id="form-title">Datos del contacto</h2>
+        </div>
+        <span class="card-icon" aria-hidden="true">+</span>
+      </div>
+
+      <form action="procesar.jsp" method="post">
+        <div class="field-grid">
+          <label class="field field-wide" for="nombre">
+            <span>Nombre completo <span class="required">*</span></span>
+            <input id="nombre" name="nombre" type="text" autocomplete="name" maxlength="80" placeholder="Ej. Andrea García" required>
+          </label>
+
+          <label class="field field-wide" for="correo">
+            <span>Correo electrónico <span class="required">*</span></span>
+            <input id="correo" name="correo" type="email" autocomplete="email" maxlength="254" placeholder="andrea@empresa.com" required>
+          </label>
+
+          <label class="field" for="telefono">
+            <span>Teléfono <span class="optional">OPCIONAL</span></span>
+            <input id="telefono" name="telefono" type="tel" autocomplete="tel" maxlength="20" placeholder="+51 999 123 456">
+          </label>
+
+          <label class="field" for="empresa">
+            <span>Empresa <span class="optional">OPCIONAL</span></span>
+            <input id="empresa" name="empresa" type="text" autocomplete="organization" maxlength="80" placeholder="Nombre de la empresa">
+          </label>
+
+          <label class="field field-wide" for="mensaje">
+            <span>Nota <span class="optional">OPCIONAL</span></span>
+            <textarea id="mensaje" name="mensaje" rows="3" maxlength="500" placeholder="¿Dónde se conocieron o qué necesitas recordar?"></textarea>
+          </label>
+        </div>
+
+        <div class="form-footer">
+          <p><span class="required">*</span> Campos obligatorios</p>
+          <button type="submit">Guardar contacto <span aria-hidden="true">→</span></button>
+        </div>
+      </form>
+    </section>
+
+    <footer class="page-footer">
+      <span>Los datos se conservan solo durante esta sesión.</span>
+      <span>Laboratorio 09 <span class="footer-divider">/</span> JSP</span>
+    </footer>
+  </main>
+</body>
+</html>

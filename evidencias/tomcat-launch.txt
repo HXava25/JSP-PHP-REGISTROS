@@ -1,0 +1,6 @@
+Using CATALINA_BASE:   "[BASE_TEMPORAL]"
+Using CATALINA_HOME:   "C:\xampp\tomcat"
+Using CATALINA_TMPDIR: "[BASE_TEMPORAL]\temp"
+Using JRE_HOME:        "C:\Program Files\Java\jre-1.8"
+Using CLASSPATH:       "C:\xampp\tomcat\bin\bootstrap.jar;C:\xampp\tomcat\bin\tomcat-juli.jar"
+Using CATALINA_OPTS:   ""
